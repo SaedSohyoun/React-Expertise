@@ -1,0 +1,66 @@
+.App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .booklist {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .book {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .book img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .book h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .book p {
+    font-size: 16px;
+    color: #555;
+  }  
+
+  .header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  .nav-list {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    padding: 0; 
+  }
+  
+  .nav-list li {
+    margin: 0 15px; 
+    cursor: pointer; 
+    transition: color 0.3s; 
+  }
+  
+  .nav-list li:hover {
+    color: #61dafb; 
+  }
+  
+  .layout {
+    width: 80vw;
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #f8f9fa; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+  }
+  
