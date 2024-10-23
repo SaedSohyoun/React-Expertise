@@ -1,0 +1,41 @@
+/* src/styles.css */
+.app {
+  text-align: center;
+  margin: 20px;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Drie kolommen van gelijke breedte */
+  gap: 20px; /* Ruimte tussen de items */
+  padding: 20px; /* Padding rond de grid */
+}
+
+.menu-item {
+  border: 1px solid #ccc;
+  padding: 5px; /* Verminderde padding voor de menu-items */
+  border-radius: 5px; /* Ronde hoeken voor de items */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Schaduw voor diepte */
+  transition: transform 0.2s; /* Animatie effect bij hover */
+  max-width: 200px; /* Maximaal breedte van het menu-item */
+  margin: auto; /* Centreer de items in de kolom */
+}
+
+.menu-item:hover {
+  transform: scale(1.05); /* Vergroot het item bij hover */
+}
+
+.menu-item img {
+  width: 100%; /* Zorgt ervoor dat de afbeelding de breedte van het item vult */
+  border-radius: 5px 5px 0 0; /* Ronde hoeken voor de bovenkant van de afbeelding */
+  max-height: 150px; /* Beperk de hoogte van de afbeelding */
+  object-fit: cover; /* Zorg ervoor dat de afbeelding goed schaalt */
+}
+
+.menu-item h2 {
+  font-size: 1.2rem; /* Kleinere fontgrootte voor de titel */
+}
+
+.menu-item p {
+  font-size: 0.9rem; /* Kleinere fontgrootte voor de beschrijving en prijs */
+}
