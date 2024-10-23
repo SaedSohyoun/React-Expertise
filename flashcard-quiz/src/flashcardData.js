@@ -1,4 +1,3 @@
-// src/flashcardData.js
 const flashcards = [
     { question: "What is the capital of France?", answer: "Paris" },
     { question: "What is the capital of Japan?", answer: "Tokyo" },

@@ -1,6 +1,6 @@
 import React from 'react';
 import FlashCardList from './components/FlashCardList';
-import './index.css'; // Zorg ervoor dat Tailwind CSS is geïmporteerd
+import './index.css';
 
 const App = () => {
   return (
